@@ -223,7 +223,7 @@ function EnhancedTableToolbar(props: EnhancedTableToolbarProps) {
 				</Typography>
 			) : (
 				<Typography sx={{ flex: "1 1 100%" }} variant="h6" id="tableTitle" component="div">
-					Nutrition
+					User Managment
 				</Typography>
 			)}
 			{numSelected > 0 ? (
@@ -314,7 +314,7 @@ export default function EnhancedTable() {
 	);
 
 	return (
-		<Box sx={{ width: "100%" }}>
+		<Box sx={{ width: "90%", margin: "4rem auto" }} >
 			<Paper sx={{ width: "100%", mb: 2 }}>
 				<EnhancedTableToolbar numSelected={selected.length} />
 				<TableContainer>
