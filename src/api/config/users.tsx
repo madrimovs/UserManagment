@@ -1,4 +1,4 @@
-import HttpRequestHub from "./httpRequest";
+import HttpRequestHub from "../httpRequestHub";
 
 export const getUserMe = () => {
 	const config = {
